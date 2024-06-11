@@ -34,4 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          tosca_execution_client.ps1 -toscaServerUrl "https://azprdqetosvm01.vm.az.etn.com" -projectName "Eaton" -events '["PCaT Test Event"]' -clientId "NfQEXSjrz0mOK6a1O4oF1A" -clientSecret "Pdkovo--X0G27MedMAtMVgUTwo2Z4oqUy0yS4sf0nVzw"
+          .github/workflows/tosca_execution_client.ps1 -toscaServerUrl "https://azprdqetosvm01.vm.az.etn.com" -projectName "Eaton" -events '["PCaT Test Event"]' -clientId "NfQEXSjrz0mOK6a1O4oF1A" -clientSecret "Pdkovo--X0G27MedMAtMVgUTwo2Z4oqUy0yS4sf0nVzw"
